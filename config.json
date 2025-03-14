@@ -1,0 +1,7 @@
+{
+    "kafka_servers": ["localhost:9092"],
+    "fraud_threshold": 0.8,
+    "max_workers": 4,
+    "model_path": "fraud_model.pkl",
+    "dashboard_port": 8050
+}
