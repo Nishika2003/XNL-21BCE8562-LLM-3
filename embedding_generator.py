@@ -24,6 +24,15 @@ import torch.nn.functional as F
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+def get_gpt4_embedding(text):
+    openai.api_key = "MY_SECRET_KEY"
+    response = openai.Embedding.create(
+        model="text-embedding-ada-002",  # GPT-4 uses "text-embedding-ada-002" for embeddings
+        input=text
+    )
+    embedding = response['data'][0]['embedding']
+    return torch.tensor(embedding)
+
 class TransactionEmbeddingGenerator:
     def __init__(self):
         self.finbert = AutoModel.from_pretrained('yiyanghkust/finbert-tone')
