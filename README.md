@@ -25,7 +25,7 @@ python -m venv env
 source env/bin/activate  # On Windows use `.\env\Scripts\activate`
 
 # Install dependencies
-pip install -r requirements.txt
+pip install (names of modules)
 ```
 
 ## How to Run Ste=reamlit
@@ -42,9 +42,6 @@ docker build -t llm-fraud-detection .
 # Run Docker container
 docker run -p 8501:8501 llm-fraud-detection
 ```
-
-## Usage
-Access the application at `http://localhost:8501` and interact with the fraud detection dashboard.
 
 ## Technologies Used
 - **Python**: Data processing and model training
