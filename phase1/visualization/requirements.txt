@@ -1,0 +1,4 @@
+# visualization/requirements.txt
+pandas
+matplotlib
+scikit-learn

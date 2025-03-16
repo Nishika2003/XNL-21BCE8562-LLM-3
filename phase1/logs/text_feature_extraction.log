@@ -1,0 +1,4 @@
+2025-03-14 10:36:06,732 - Desired vocab_size of 10000 is too high. Adjusting to 1000.
+2025-03-14 10:36:07,683 - SentencePiece model training completed successfully.
+2025-03-14 10:49:38,265 - Desired vocab_size of 10000 is too high. Adjusting to 1000.
+2025-03-14 10:49:39,028 - SentencePiece model training completed successfully.

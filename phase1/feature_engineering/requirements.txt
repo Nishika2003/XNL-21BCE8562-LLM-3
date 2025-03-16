@@ -1,0 +1,8 @@
+pandas
+numpy
+spacy
+gensim
+tqdm
+matplotlib
+sklearn
+nltk

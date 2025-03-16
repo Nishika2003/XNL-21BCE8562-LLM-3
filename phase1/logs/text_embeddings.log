@@ -1,0 +1,21 @@
+2025-03-14 10:49:40,860 - collecting all words and their counts
+2025-03-14 10:49:40,860 - PROGRESS: at sentence #0, processed 0 words, keeping 0 word types
+2025-03-14 10:49:40,871 - collected 7923 word types from a corpus of 78727 raw words and 10000 sentences
+2025-03-14 10:49:40,871 - Creating a fresh vocabulary
+2025-03-14 10:49:40,901 - Word2Vec lifecycle event {'msg': 'effective_min_count=1 retains 7923 unique words (100.00% of original 7923, drops 0)', 'datetime': '2025-03-14T10:49:40.887831', 'gensim': '4.3.3', 'python': '3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'prepare_vocab'}
+2025-03-14 10:49:40,902 - Word2Vec lifecycle event {'msg': 'effective_min_count=1 leaves 78727 word corpus (100.00% of original 78727, drops 0)', 'datetime': '2025-03-14T10:49:40.902208', 'gensim': '4.3.3', 'python': '3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'prepare_vocab'}
+2025-03-14 10:49:40,936 - deleting the raw counts dictionary of 7923 items
+2025-03-14 10:49:40,937 - sample=0.001 downsamples 8 most-common words
+2025-03-14 10:49:40,937 - Word2Vec lifecycle event {'msg': 'downsampling leaves estimated 73742.15249930022 word corpus (93.7%% of prior 78727)', 'datetime': '2025-03-14T10:49:40.937209', 'gensim': '4.3.3', 'python': '3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'prepare_vocab'}
+2025-03-14 10:49:40,986 - estimated required memory for 7923 words and 100 dimensions: 10299900 bytes
+2025-03-14 10:49:40,986 - resetting layer weights
+2025-03-14 10:49:40,990 - Word2Vec lifecycle event {'update': False, 'trim_rule': 'None', 'datetime': '2025-03-14T10:49:40.990714', 'gensim': '4.3.3', 'python': '3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'build_vocab'}
+2025-03-14 10:49:40,990 - Word2Vec lifecycle event {'msg': 'training model with 4 workers on 7923 vocabulary and 100 features, using sg=0 hs=0 sample=0.001 negative=5 window=5 shrink_windows=True', 'datetime': '2025-03-14T10:49:40.990714', 'gensim': '4.3.3', 'python': '3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'train'}
+2025-03-14 10:49:41,045 - EPOCH 0: training on 78727 raw words (73653 effective words) took 0.0s, 1549966 effective words/s
+2025-03-14 10:49:41,100 - EPOCH 1: training on 78727 raw words (73788 effective words) took 0.0s, 1584079 effective words/s
+2025-03-14 10:49:41,155 - EPOCH 2: training on 78727 raw words (73676 effective words) took 0.0s, 1623545 effective words/s
+2025-03-14 10:49:41,207 - EPOCH 3: training on 78727 raw words (73754 effective words) took 0.0s, 1610870 effective words/s
+2025-03-14 10:49:41,263 - EPOCH 4: training on 78727 raw words (73743 effective words) took 0.0s, 1539202 effective words/s
+2025-03-14 10:49:41,264 - Word2Vec lifecycle event {'msg': 'training on 393635 raw words (368614 effective words) took 0.3s, 1350677 effective words/s', 'datetime': '2025-03-14T10:49:41.264276', 'gensim': '4.3.3', 'python': '3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'train'}
+2025-03-14 10:49:41,264 - Word2Vec lifecycle event {'params': 'Word2Vec<vocab=7923, vector_size=100, alpha=0.025>', 'datetime': '2025-03-14T10:49:41.264276', 'gensim': '4.3.3', 'python': '3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.26100-SP0', 'event': 'created'}
+2025-03-14 10:49:41,265 - An error occurred: unhashable type: 'list'

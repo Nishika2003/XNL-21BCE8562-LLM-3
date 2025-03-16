@@ -1,0 +1,5 @@
+# data_generation/requirements.txt
+pandas
+numpy
+faker
+tqdm
